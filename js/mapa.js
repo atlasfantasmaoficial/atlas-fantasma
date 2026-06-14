@@ -22,29 +22,28 @@ const lugares = [
     id: "beelitz",
     nombre: "Hospital Beelitz",
     coords: [52.2799, 13.0314],
-    enlace: "../ruinas/html/HospitalMilitarAlemania.html",
-    miniatura: "../ruinas/imagenes/hospital.jpg" // ✅ Tu imagen real
+    enlace:  "html/HospitalMilitarAlemania.html",
+    miniatura: "imagenes/hospital.jpg" // ✅ Tu imagen real
   },
   {
     id: "nara",
     nombre: "Nara Dreamland",
     coords: [34.6838, 135.8324],
-    enlace: "../ruinas/html/parquenara.html",
-    miniatura: "../ruinas/imagenes/nara.jpg"
-  },
+    enlace: "html/parquenara.html",
+    miniatura: "imagenes/nara.jpg"
   {
     id: "pripiat",
     nombre: "Prípiat",
     coords: [51.3890, 30.0990],
-    enlace: "../ruinas/html/pripiat.html",
-    miniatura: "../ruinas/imagenes/pripiat.jpg"
+     enlace: "html/pripiat.html",
+    miniatura: "imagenes/pripiat.jpg"
   },
   {
     id: "bannerman",
     nombre: "Castillo Bannerman",
     coords: [41.45550157328339, -73.98869216931055],
-    enlace: "../ruinas/html/bannerman.html",
-    miniatura: "../ruinas/imagenes/bannerman.jpg"
+     enlace: "html/bannerman.html",
+    miniatura: "imagenes/bannerman.jpg"
   }
 ];
 
