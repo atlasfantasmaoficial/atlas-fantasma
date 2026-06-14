@@ -31,6 +31,7 @@ const lugares = [
     coords: [34.6838, 135.8324],
     enlace: "html/parquenara.html",
     miniatura: "imagenes/nara.jpg"
+  },
   {
     id: "pripiat",
     nombre: "Prípiat",
