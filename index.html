@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">  
+  <meta name="keywords" content="urbex, lugares abandonados, hospitales abandonados, castillos abandonados, atlas fantasma">
+  <meta name="description" content="Atlas Fantasma: guía mundial de lugares abandonados, hospitales, castillos, fábricas, parques y mucho más.">
+  <meta name="author" content="Atlas Fantasma">
+  <meta name="robots" content="index, follow">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atlas Fantasma - Lugares Abandonados del Mundo</title>
+  <link rel="stylesheet" href="css/body.css">
+  <link rel="stylesheet" href="css/mapa.css">
+  <link rel="icon" href="html/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+ <!-- === BANNERS LATERALES === -->  <!-- ===
+<div class="banner-lateral izquierda">
+  <a href="https://tusitio-o-anunciante.com" target="_blank">
+    <img src="imagenes/banner-izquierdo.jpg" alt="Publicidad Izquierda">
+  </a>
+</div>
+
+<div class="banner-lateral derecha">
+  <a href="https://tusitio-o-anunciante.com" target="_blank">
+    <img src="imagenes/banner-derecho.jpg" alt="Publicidad Derecha">
+  </a>
+</div>=== -->
+
+
+  <!-- === CABECERA ORIGINAL === -->
+  <header>
+    <img src="imagenes/logo.png" height="180" alt="Atlas Fantasma">
+    <h3>Explora una guía global de lugares abandonados: hospitales, fábricas, castillos, parques y más.</h3>
+  </header>
+
+  <!-- === NUEVA SECCIÓN DE ÚLTIMOS LUGARES === -->
+  <section id="ultimos" class="contenedor">
+    <h2>🕰 Últimos Lugares Añadidos</h2>
+    <div class="grid-lugares">
+      <a href="html/HospitalMilitarAlemania.html" class="card">
+        <h3>🏥 Hospital Militar de Beelitz</h3>
+        <p>Alemania</p>
+      </a>
+
+      <a href="html/parquenara.html" class="card">
+        <h3>🎢 Parque Nara Dreamland</h3>
+        <p>Japón</p>
+      </a>
+
+      <a href="html/pripiat.html" class="card">
+        <h3>🏭 Prípiat</h3>
+        <p>Ucrania</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- === CATEGORÍAS === -->
+  <section id="categorias" class="contenedor">
+    <h2>🔍 Explora por Categorías</h2>
+    <div class="grid-categorias">
+      <a href="html/hospital.html">🏥 Hospitales</a>
+      <a href="html/fabricas.html">🏭 Fábricas</a>
+      <a href="html/castillos.html">🏰 Castillos / Palacios</a>
+      <a href="html/escuelas.html">🏫 Escuelas</a>
+      <a href="html/parques.html">🎢 Parques</a>
+      <a href="html/lugaresfantasmas.html">👻 Lugares Fantasma</a>
+    </div>
+  </section>
+
+  <!-- === MAPA INTERACTIVO === -->
+  <section id="mapa" class="contenedor">
+    <h2>🗺 Mapa Interactivo</h2>
+    <div id="mapa-mundo"></div>
+  </section>
+
+  <!-- === PIE DE PÁGINA === -->
+  <footer>
+    <p>© 2025 Atlas Fantasma | Explora responsablemente</p>
+  </footer>
+
+  <script src="js/mapa.js"></script>
+</body>
+</html>
