@@ -1,0 +1,249 @@
+/* ===== ESTILO BASE ===== */
+body { 
+  font-family: 'Poppins', Arial, sans-serif; 
+  margin: 0; 
+  padding: 0; 
+  background: linear-gradient(180deg, #1e1e1e 0%, #2b2b2b 100%);
+  color: #f1f1f1; /* color del texto */
+}
+
+/* ===== CABECERA ===== */
+header {
+  background-color: #746e6e; /* gris oscuro */
+  color: #ffffff; 
+  padding: 1em;
+  text-align: center; 
+  max-height: 220px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+header img {
+  margin: 0.5rem auto;
+  display: block;
+}
+
+header h3 {
+  margin: 0.3rem 0 0 0; 
+  text-align: center;
+}
+
+/* ===== NUEVO DISEÑO GENERAL ===== */
+section {
+  padding: 2em 1em; 
+  max-width: 1000px; 
+  margin: 2em auto; 
+  background: rgba(30, 30, 30, 0.8); /* gris oscuro semi-transparente */
+  border-radius: 10px; 
+  box-shadow: 0 0 15px rgba(0,0,0,0.4); 
+  backdrop-filter: blur(6px); 
+}
+
+section img { 
+  display: inline-block; 
+  width: 300px; 
+  max-width: 90%; 
+  height: auto; 
+  margin: 0.8em; 
+  border-radius: 10px; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
+} 
+
+section img:hover { 
+  transform: scale(1.08); 
+  box-shadow: 0 0 25px rgba(255, 255, 200, 0.5); 
+} 
+
+h1, h2 { 
+  text-align: center; 
+}
+
+h2 {
+  margin-bottom: 1.5em; 
+  color: #ffcc66; 
+  text-shadow: 1px 1px 4px rgba(0,0,0,0.5); 
+}
+
+/* ===== ÚLTIMOS LUGARES ===== */
+.grid-lugares { 
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); 
+  gap: 1.5em; 
+} 
+
+.card { 
+  display: block; 
+  background: rgba(50,50,50,0.8); /* gris oscuro semi-transparente */
+  padding: 1em 1.2em; 
+  border-radius: 10px; 
+  color: #f1f1f1; 
+  text-decoration: none; 
+  border: 1px solid rgba(255,255,255,0.1); 
+  transition: all 0.3s ease; 
+} 
+
+.card:hover { 
+  background: rgba(60,60,60,0.9); 
+  transform: translateY(-4px); 
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3); 
+} 
+
+.card h3 { 
+  margin: 0.3em 0; 
+  font-size: 1.2em; 
+  color: #ffdd88; 
+} 
+
+.card p { 
+  margin: 0; 
+  font-size: 0.95em; 
+  color: #ccc; 
+}
+
+/* ===== CATEGORÍAS ===== */
+.grid-categorias { 
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+  gap: 1em; 
+} 
+
+.grid-categorias a {
+  background: #333; 
+  color: #ffdd88; 
+  padding: 0.8em 1.2em; 
+  border-radius: 8px; 
+  text-decoration: none; 
+  font-weight: 500; 
+  border: 1px solid #444; 
+  transition: all 0.3s ease;
+}
+
+.grid-categorias a:hover { 
+  background: #ffdd88; 
+  color: #222; 
+  transform: translateY(-3px); 
+}
+
+/* ===== MAPA ===== */
+#mapa-mundo { 
+  height: 500px; 
+  margin-top: 1em; 
+  border: 2px solid #555; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.5); 
+}
+
+/* ===== PIE DE PÁGINA ===== */
+footer { 
+  background: #111;
+  color: #bbb; 
+  text-align: center; 
+  padding: 1.5em; 
+  font-size: 0.9em; 
+  border-top: 1px solid #333;
+} 
+
+a {
+  transition: color 0.2s ease; 
+}
+
+a:hover {
+  color: #ffdd88; 
+}
+
+.video-container { 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  margin: 1.5em auto; 
+} 
+
+.video-container iframe { 
+  width: 85%; 
+  max-width: 700px; 
+  height: 390px; 
+  border-radius: 10px; 
+  border: 2px solid #444; 
+  box-shadow: 0 0 15px rgba(0,0,0,0.5); 
+} 
+
+.ubicacion { 
+  text-align: center; 
+} 
+
+.ubicacion iframe { 
+  width: 85%; 
+  max-width: 800px; 
+  height: 350px; 
+  border: 2px solid #555; 
+  border-radius: 10px; 
+  box-shadow: 0 0 20px rgba(0,0,0,0.6); 
+  margin-top: 1em; 
+} 
+.galeria-categoria {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* Se adaptan */
+  gap: 20px; /* Espacio entre los elementos */
+  padding: 20px;
+  justify-items: center; /* Centra los artículos */
+}
+
+.lugar {
+  background: #111;
+  color: #eee;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  max-width: 350px;
+  transition: transform 0.2s ease;
+}
+
+.lugar:hover {
+  transform: scale(1.03);
+}
+
+.lugar img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+/* ==== BANNERS LATERALES ==== */
+.banner-lateral {
+  position: fixed;
+  top: 120px;              /* distancia desde arriba */
+  width: 160px;            /* ancho del banner */
+  z-index: 1000;           /* sobre el contenido */
+}
+
+.banner-lateral img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease;
+}
+
+.banner-lateral img:hover {
+  transform: scale(1.05);
+}
+
+/* Lado izquierdo */
+.banner-lateral.izquierda {
+  left: 10px;
+}
+
+/* Lado derecho */
+.banner-lateral.derecha {
+  right: 10px;
+}
+
+/* 🔸 En pantallas pequeñas, los ocultamos para no molestar la vista */
+@media (max-width: 1024px) {
+  .banner-lateral {
+    display: none;
+  }
+}
